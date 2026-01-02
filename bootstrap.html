@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strong Style gym</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+     <link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+
+    <style type="text/css">
+    
+    .hero{
+
+        background: url("https://m.media-amazon.com/images/I/71t2iMRG+rL._AC_UF1000,1000_QL80_.jpg") ;
+        background-repeat:space;
+        background-size: cover;
+        height:90vh;
+        display:flex;
+    }
+    .overlay{
+        background: rgba(0, 0, 0, 0.6);
+        width: 100%;
+        display: flex;
+        align-items: center;
+        color:dodgerblue;
+        text-shadow: 5px 5px 5px black;
+    }
+    .Trainer-img{
+
+        height:320px;
+        object-fit: cover;
+    }
+    footer{
+
+        background: #111;
+        color: white;
+        height:350px;
+        align-items: center;
+    }
+    #aka{
+
+        text-shadow: 3px 3px 7px rgb(227, 227, 227),2px 2px 2px black ;
+        font-size: 40px;
+    }
+   #h1o:hover{
+    color: red;
+    transition: all .25s ease;
+    transform: scale(1.2)
+   }
+   .contact-sticky {
+  position: fixed;
+  top: 500px;
+  left: 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  z-index: 9999;
+}
+
+.contact-item {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #111;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 18px;
+  transition: 0.25s ease;
+}
+
+.contact-item:hover {
+  transform: scale(1.15);
+  background: #28a745;
+  color: white;
+}
+.top-left-icon {
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  font-size: 40px;
+  color: gold;
+  z-index: 9999;
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+.top-left-icon:hover {
+  transform: scale(1.2) rotate(-5deg);
+}
+#aka {
+  font-family: "Metal Mania", cursive;  
+  animation: brandColor 5s infinite; 
+}
+
+
+@keyframes brandColor {
+  0%   { color: rgb(72, 0, 0); }
+  25%  { color: rgb(36, 24, 2); }
+  50%  { color: rgb(21, 21, 5); }
+  75%  { color: rgb(0, 69, 137); }
+  100% { color: rgb(2, 25, 2); }
+}
+#aka{
+  font-family: "Metal Mania", cursive;
+  text-shadow: 3px 3px 7px rgb(244, 244, 244),2px 2px 2px black;
+  font-size: 40px;
+  animation: brandColor 5s infinite;
+}
+.footer-image{
+  height:256px;
+  width:560px;
+  border-radius:12px;
+  object-fit:cover;
+  transition: opacity .6s ease;
+}
+    </style>
+
+
+
+
+
+</head>
+<body>
+  
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            
+          <a id="aka" class="navbar-brand fw-bold" href="#">Strong Styles GYM</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+
+          </button>
+          <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto ">
+                <li class="nav-item m-2"><a  class="nav-link" href="#" id="h1o">Home</a></li>
+                <li class="nav-item m-2""><a  class="nav-link" href="#abouts" id="h1o">AboutUs</a></li>
+                <li class="nav-item m-2""><a  class="nav-link" href="#ourtrainers" id="h1o">Trainers</a></li>
+                <li class="nav-item m-2""><a  class="nav-link btn btn-danger text-white px-3  href="#">join now</a></li>
+            
+
+            </ul>
+
+          </div>
+        </div>
+    </nav>
+
+<div class="contact-sticky">
+  <a href="tel:+919999999999" class="contact-item">
+    <i class="fas fa-phone"></i>
+  </a>
+
+  <a href="https://wa.me/919999999999" target="_blank" class="contact-item">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+</div>
+
+    <section class="hero">
+        <div class="overlay">
+           <div class="container text-center">
+            <h1 class="display-4 fw-bold">YOUR BEST VERSION START HERE</h1>
+            <P class="lead " style="color: white; font-weight: 300;"> <b>Train hard. Stay fit. Never quit. </b></P>
+            <a class=" btn btn-danger btn-lg" href="#">Join Today</a>
+            <P class="lead m-5" style="color: white; font-weight: 600;"> <b>At Strong Style Gym, we don’t just build bodies — we build style and confidence. </b></P>
+           </div>
+        </div>
+
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center fw-blod mb-4"> Membership Plans</h2>
+                  <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card text-center h-100 shadow">
+                            <div class="card-body">
+                                <h4>Basic</h4>
+                                <h2 class="text-danger">&#8377;3000</h2>
+                                <p>Cardio|Weights</p>
+                                <button class="btn btn-outline-danger">join</button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card text-center h-100 shadow">
+                            <div class="card-body">
+                                <h4>Standard</h4>
+                                 <h2 class="text-danger">&#8377;5999</h2>
+                                <p>Cardio|Weights|Trainer</p>
+                                <button class="btn btn-danger">join</button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card text-center h-100 shadow">
+                            <div class="card-body">
+                                <h4>Premium</h4>
+                                 <h2 class="text-danger">&#8377;8999</h2>
+                                <p>All Access + Diet plan</p>
+                                <button class="btn btn-outline-danger">join</button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                  </div>
+            
+           
+
+        </div>
+
+    </section>
+
+    <section class="py-5 bg-light" id="ourtrainers">
+
+        <div class="container">
+            <h2 class="text-center fw-bold mb-4" >Our Trainers</h2>
+
+            <div class="row g-4">
+               <div class="col-md-4">
+                <div class="card shadow">
+                    <img src="https://w0.peakpx.com/wallpaper/89/872/HD-wallpaper-hugh-jackman-black-man-white-actor.jpg" alt="" class="Trainer-img card-img-top">
+                     <div class="card-body text-center">
+                     <h5>Huge jackman aka wolverin</h5>
+                     <p>Fitness muscle style</p>
+                </div>
+                    </div>
+               </div>
+           
+
+            <div class="col-md-4">
+    
+                <div class="card shadow">
+                    <img src="https://i1.sndcdn.com/artworks-pfx5thx1sh3wACWv-sMlvRA-t500x500.jpg" alt="" class="Trainer-img card-img-top">
+                    <div class="card-body text-center">
+                     <h5>ozage yagiz</h5>
+                     <p>yoga Trainer</p>
+                    </div>
+                    
+                </div>
+
+               
+            </div>
+
+             <div class="col-md-4">
+    
+                <div class="card shadow">
+                    <img src="https://i.pinimg.com/474x/8e/39/24/8e39243a445cb03287b5233ca43e8a7c.jpg" alt="" class="Trainer-img card-img-top">
+                    <div class="card-body text-center">
+                     <h5>Scott adkins aka boyka </h5>
+                     <p>Crossfit Expert</p>
+                    </div>
+                    
+                </div>
+
+               
+            </div>
+
+
+        </div>
+         </div>
+
+    </section>
+
+    <section class="py-5">
+       <div class="container text-center">
+        <h2 class="fw-bold mb-4">Why Choose Us</h2>
+          <div class="row">
+            <div class="col-md-4">
+                <i class="fas fa-dumbbell fa-3x text-danger"></i>
+                <p class="mt-3">Modern Equipment  </p>
+
+            </div>
+            <div class="col-md-4">
+                <i class="fas fa-user-check fa-3x text-danger"></i>
+                <p class="mt-3">Certified Professional Trainer</p>
+
+            </div>
+             <div class="col-md-4">
+                <i class="fas fa-clock fa-3x text-danger"></i>
+                <p class="mt-3">Flexible timing</p>
+
+            </div>
+
+
+          </div>
+        
+
+       </div>
+    </section>
+    <section class="py-5 bg-dark text-white">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-4"> Join StrongStyles GYM</h2>
+             <form action="" class="row g-3">
+                <div class="col-md-4">
+                    <input type="text" class="form-control" placeholder="Name">
+                </div>
+                 <div class="col-md-4">
+                    <input type="email" class="form-control" placeholder="Email">
+                </div>
+                 <div class="col-md-4">
+                    <input type="tel" class="form-control" placeholder="phone">
+                </div>
+                <div class="col-12 text-center">
+                 <button class="btn btn-danger px-5"> Submit</button>
+                </div>
+             </form>
+        </div>
+        
+
+    </section>
+    
+<footer class="footer-sec" id="abouts">
+  <div class="container h-100 d-flex align-items-center">
+    <div class="row w-100">
+
+      
+      <img id="footerImg"
+     src="https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg"
+     class="footer-image"
+     alt="Gym">
+
+      
+      <div class="col-md-6 text-white ms-md-4">
+        <h4 class="fw-bold" style="font-size: 45px;">About Strong Styles Gym</h4>
+        <p class="mt-5 ">
+          At Strong Styles Gym, we don’t just focus on muscles — we focus on strength,
+          discipline, confidence and lifestyle. Train smart, stay motivated, and become your
+          best version Our trainers guide you with proper technique, safe workouts, and motivation so you stay
+  consistent, disciplined, and proud of your progress.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</footer>
+
+    
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script>
+  const footerImages = [
+    "https://img.freepik.com/premium-photo/modern-gym-interior-with-new-fitness-equipment_93675-120743.jpg",
+    "https://static.vecteezy.com/system/resources/thumbnails/069/018/011/small/rows-of-dumbbells-in-modern-gym-fitness-equipment-photo.jpeg",
+    "https://media.istockphoto.com/id/1956798859/photo/a-personal-trainer-is-showing-a-sportswoman-exercises-with-kettlebell-in-a-gym.jpg?s=612x612&w=0&k=20&c=cgh0iZxnIJlD36Qy0cESU9vinfdUdd1qV8b1Fdsp4EA="
+  ];
+
+  let current = 0;
+  const imgEl = document.getElementById("footerImg");
+
+  setInterval(() => {
+    current = (current + 1) % footerImages.length;
+    imgEl.style.opacity = 0;
+
+    setTimeout(() => {
+      imgEl.src = footerImages[current];
+      imgEl.style.opacity = 1;
+    }, 400);
+  }, 5000);
+</script>
+</body>
+</html>
